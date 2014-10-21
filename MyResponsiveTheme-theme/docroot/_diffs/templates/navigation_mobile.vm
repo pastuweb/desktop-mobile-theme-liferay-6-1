@@ -1,0 +1,44 @@
+<script type="text/javascript">
+	jQuery(function() {
+		jQuery("#butt_menu").click(function( event ) {
+			jQuery("#menu").animate({
+				height:'toggle'
+			 });
+		});
+		$("#menuUl").menu();
+	});
+</script>
+
+<div id="container_menu">
+	<img id="butt_menu" src="$images_folder/menu_icon.png" alt="Menu" />
+	
+	<div id="sep"></div>
+	<nav id="menu">
+		<ul id="menuUl">
+			#foreach ($nav_item in $nav_items)
+				#if ($nav_item.isSelected())
+					<li>
+				#else
+					<li>
+				#end
+					<a href="$nav_item.getURL()" $nav_item.getTarget()><span>$nav_item.icon() $nav_item.getName()</span></a>
+	
+					#if ($nav_item.hasChildren())
+						<ul >
+							#foreach ($nav_child in $nav_item.getChildren())
+								#if ($nav_child.isSelected())
+									<li >
+								#else
+									<li>
+								#end
+									<a href="$nav_child.getURL()" $nav_child.getTarget()>$nav_child.getName()</a>
+								</li>
+							#end
+						</ul>
+					#end
+				</li>
+			#end
+		</ul>
+	</nav>
+</div>
+<br>
