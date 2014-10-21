@@ -1,0 +1,137 @@
+.gray .ui-menu { 
+	width: 100%; 
+	text-align:left;
+	font-size:20px;
+}
+
+.gray #butt_menu{
+	width:50px;
+	position:absolute;
+	top:-70px;
+	right:5px;
+}
+
+.gray #container_menu{
+	position:relative;
+}
+
+.gray #menu{
+	display:none;
+}
+
+.gray #menuUl{
+	background:#AAAAA9;
+	color:#000000;
+}
+
+.gray #divSignIn{
+	text-align:right;
+	color:#FFFFFF !important;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-right:4px;
+	font-size:14px;
+	font-weight:bold;
+	position:absolute;
+	width:90px;
+	top:0px;
+	right:0px;
+	background:#AAAAA9;
+	text-decoration:none;
+	border-bottom:2px solid #000000;
+	border-left:2px solid #000000;
+}
+
+.gray #divSignIn a{
+	text-decoration:none;
+}
+
+.gray #sep{
+	width:100%;
+	margin-top:-20px;
+	height:2px;
+	background:#AAAAA9;
+}
+
+.gray #powerByFooter{
+	text-align:center !important;
+	width:100%;
+	background:#AAAAA9;
+	color:#000000;
+	font-size:16px !important;
+}
+.gray #powerByFooter a{
+	color:#000000 !important;
+}
+
+/* CSS per Menu Desktop */
+
+.gray .nav {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	background: #AAAAA9;
+	width:100%;
+	height: 42px !important;
+	font-size: 20px !important;
+	border-top: 2px solid #000000;
+}
+
+.gray .nav li {
+	float: left;
+	height: 42px !important;
+	width: 140px;
+	position: relative;
+	border-left:1px solid #000000;
+	border-right:1px solid #000000;
+}
+
+.gray .nav li a {
+	background: #AAAAA9;
+	color: #000000;
+	display: block;
+	padding: 7px 8px;
+	text-decoration: none;
+}
+
+
+.gray .nav li a:hover {
+	color: #FF0000;
+	background: #d8d8d6;
+	height: 42px !important;
+}
+
+.gray .selected{
+	background: #d8d8d6 !important;
+	color: #FF0000 !important;
+	height: 42px !important;
+}
+
+
+
+.gray .nav ul {
+	display: none;
+	position: absolute;
+	margin-left: 0px;
+	list-style: none;
+	padding: 0px;
+	height: 42px !important;
+}
+
+.gray .nav ul li {
+	width: 140px;
+	float: left;
+}
+
+.gray .nav ul a {
+	display: block;
+	height: 15px;
+	padding: 7px 8px;
+	color: #000000;
+	text-decoration: none;
+	border-bottom: 1px solid #000000;
+}
+
+.gray .nav ul li a:hover {
+	color: #FF0000;
+}

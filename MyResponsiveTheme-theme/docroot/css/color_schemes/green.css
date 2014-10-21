@@ -1,0 +1,136 @@
+.green .ui-menu { 
+	width: 100%; 
+	text-align:left;
+	font-size:20px;
+}
+
+.green #butt_menu{
+	width:50px;
+	position:absolute;
+	top:-70px;
+	right:5px;
+}
+
+.green #container_menu{
+	position:relative;
+}
+
+.green #menu{
+	display:none;
+}
+
+.green #menuUl{
+	background:#85ff7c;
+	color:#000000;
+}
+
+.green #divSignIn{
+	text-align:right;
+	color:#000000 !important;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-right:4px;
+	font-size:14px;
+	font-weight:bold;
+	position:absolute;
+	width:90px;
+	top:0px;
+	right:0px;
+	background:#85ff7c;
+	text-decoration:none;
+	border-bottom:2px solid #000000;
+	border-left:2px solid #000000;
+}
+
+.green #divSignIn a{
+	text-decoration:none;
+}
+
+.green #sep{
+	width:100%;
+	margin-top:-20px;
+	height:2px;
+	background:#85ff7c
+}
+
+.green #powerByFooter{
+	text-align:center !important;
+	width:100%;
+	background:#85ff7c;
+	color:#000000;
+	font-size:16px !important;
+}
+.green #powerByFooter a{
+	color:#000000 !important;
+}
+
+/* CSS per Menu Desktop */
+
+.green .nav {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	background: #85ff7c;
+	width:100%;
+	height: 42px !important;
+	font-size: 20px !important;
+	border-top: 2px solid #000000;
+}
+
+.green .nav li {
+	float: left;
+	height: 42px !important;
+	width: 140px;
+	position: relative;
+	border-left:1px solid #000000;
+	border-right:1px solid #000000;
+}
+
+.green .nav li a {
+	background: #85ff7c;
+	color: #000000;
+	display: block;
+	padding: 7px 8px;
+	text-decoration: none;
+}
+
+
+.green .nav li a:hover {
+	color: #FFFFFF;
+	background: #087f00;
+	height: 42px !important;
+}
+
+.green .selected{
+	background: #087f00 !important;
+	color: #FFFFFF !important;
+	height: 42px !important;
+}
+
+
+.green .nav ul {
+	display: none;
+	position: absolute;
+	margin-left: 0px;
+	list-style: none;
+	padding: 0px;
+	height: 42px !important;
+}
+
+.green .nav ul li {
+	width: 140px;
+	float: left;
+}
+
+.green .nav ul a {
+	display: block;
+	height: 15px;
+	padding: 7px 8px;
+	color: #000000;
+	text-decoration: none;
+	border-bottom: 1px solid #000000;
+}
+
+.green .nav ul li a:hover {
+	color: #FFFFFF;
+}

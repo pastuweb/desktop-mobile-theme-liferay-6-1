@@ -1,0 +1,837 @@
+.blue .ui-menu {
+  width: 100%;
+  text-align: left;
+  font-size: 20px; }
+
+.blue #butt_menu {
+  width: 50px;
+  position: absolute;
+  top: -70px;
+  right: 5px; }
+
+.blue #container_menu {
+  position: relative; }
+
+.blue #menu {
+  display: none; }
+
+.blue #menuUl {
+  background: #2b44ff;
+  color: #FFFFFF; }
+
+.blue #divSignIn {
+  text-align: right;
+  color: #FFFFFF !important;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  width: 90px;
+  top: 0px;
+  right: 0px;
+  background: #2b44ff;
+  text-decoration: none;
+  border-bottom: 2px solid #000000;
+  border-left: 2px solid #000000; }
+
+.blue #divSignIn a {
+  text-decoration: none; }
+
+.blue #sep {
+  width: 100%;
+  margin-top: -20px;
+  height: 2px;
+  background: #2b44ff; }
+
+.blue #powerByFooter {
+  text-align: center !important;
+  width: 100%;
+  background: #2b44ff;
+  color: #000000;
+  font-size: 16px !important; }
+
+.blue #powerByFooter a {
+  color: #000000 !important; }
+
+/* CSS per Menu Desktop */
+.blue .nav {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  background: #2b44ff;
+  width: 100%;
+  height: 42px !important;
+  font-size: 20px !important;
+  border-top: 2px solid #000000; }
+
+.blue .nav li {
+  float: left;
+  width: 140px;
+  height: 42px !important;
+  position: relative;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000; }
+
+.blue .nav li a {
+  background: #2b44ff;
+  color: #FFFFFF;
+  display: block;
+  padding: 7px 8px;
+  text-decoration: none; }
+
+.blue .nav li a:hover {
+  color: #000000;
+  background: #87ffff;
+  height: 42px !important; }
+
+.blue .selected {
+  background: #87ffff !important;
+  color: #000000 !important;
+  height: 42px !important; }
+
+.blue .nav ul {
+  display: none;
+  position: absolute;
+  margin-left: 0px;
+  list-style: none;
+  padding: 0px;
+  height: 42px !important; }
+
+.blue .nav ul li {
+  width: 140px;
+  float: left; }
+
+.blue .nav ul a {
+  display: block;
+  height: 15px;
+  padding: 7px 8px;
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 1px solid #000000; }
+
+.blue .nav ul li a:hover {
+  color: #000000; }
+
+.green .ui-menu {
+  width: 100%;
+  text-align: left;
+  font-size: 20px; }
+
+.green #butt_menu {
+  width: 50px;
+  position: absolute;
+  top: -70px;
+  right: 5px; }
+
+.green #container_menu {
+  position: relative; }
+
+.green #menu {
+  display: none; }
+
+.green #menuUl {
+  background: #85ff7c;
+  color: #000000; }
+
+.green #divSignIn {
+  text-align: right;
+  color: #000000 !important;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  width: 90px;
+  top: 0px;
+  right: 0px;
+  background: #85ff7c;
+  text-decoration: none;
+  border-bottom: 2px solid #000000;
+  border-left: 2px solid #000000; }
+
+.green #divSignIn a {
+  text-decoration: none; }
+
+.green #sep {
+  width: 100%;
+  margin-top: -20px;
+  height: 2px;
+  background: #85ff7c; }
+
+.green #powerByFooter {
+  text-align: center !important;
+  width: 100%;
+  background: #85ff7c;
+  color: #000000;
+  font-size: 16px !important; }
+
+.green #powerByFooter a {
+  color: #000000 !important; }
+
+/* CSS per Menu Desktop */
+.green .nav {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  background: #85ff7c;
+  width: 100%;
+  height: 42px !important;
+  font-size: 20px !important;
+  border-top: 2px solid #000000; }
+
+.green .nav li {
+  float: left;
+  height: 42px !important;
+  width: 140px;
+  position: relative;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000; }
+
+.green .nav li a {
+  background: #85ff7c;
+  color: #000000;
+  display: block;
+  padding: 7px 8px;
+  text-decoration: none; }
+
+.green .nav li a:hover {
+  color: #FFFFFF;
+  background: #087f00;
+  height: 42px !important; }
+
+.green .selected {
+  background: #087f00 !important;
+  color: #FFFFFF !important;
+  height: 42px !important; }
+
+.green .nav ul {
+  display: none;
+  position: absolute;
+  margin-left: 0px;
+  list-style: none;
+  padding: 0px;
+  height: 42px !important; }
+
+.green .nav ul li {
+  width: 140px;
+  float: left; }
+
+.green .nav ul a {
+  display: block;
+  height: 15px;
+  padding: 7px 8px;
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 1px solid #000000; }
+
+.green .nav ul li a:hover {
+  color: #FFFFFF; }
+
+.red .ui-menu {
+  width: 100%;
+  text-align: left;
+  font-size: 20px; }
+
+.red #butt_menu {
+  width: 50px;
+  position: absolute;
+  top: -70px;
+  right: 5px; }
+
+.red #container_menu {
+  position: relative; }
+
+.red #menu {
+  display: none; }
+
+.red #menuUl {
+  background: #ff0000;
+  color: #000000; }
+
+.red #divSignIn {
+  text-align: right;
+  color: #000000 !important;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  width: 90px;
+  top: 0px;
+  right: 0px;
+  background: #ff0000;
+  text-decoration: none;
+  border-bottom: 2px solid #000000;
+  border-left: 2px solid #000000; }
+
+.red #divSignIn a {
+  text-decoration: none; }
+
+.red #sep {
+  width: 100%;
+  margin-top: -20px;
+  height: 2px;
+  background: red; }
+
+.red #powerByFooter {
+  text-align: center !important;
+  width: 100%;
+  background: #ff6d6d;
+  color: #000000;
+  font-size: 16px !important; }
+
+.red #powerByFooter a {
+  color: #000000 !important; }
+
+/* CSS per Menu Desktop */
+.red .nav {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  background: #ff0000;
+  width: 100%;
+  height: 42px !important;
+  font-size: 20px !important;
+  border-top: 2px solid #000000; }
+
+.red .nav li {
+  float: left;
+  width: 140px;
+  height: 42px !important;
+  position: relative;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000; }
+
+.red .nav li a {
+  background: #ff0000;
+  color: #000000;
+  display: block;
+  padding: 7px 8px;
+  text-decoration: none; }
+
+.red .nav li a:hover {
+  color: #4f0000;
+  background: #ffa5a5;
+  height: 42px !important; }
+
+.red .selected {
+  background: #ffa5a5 !important;
+  color: #4f0000 !important;
+  height: 42px !important; }
+
+.red .nav ul {
+  display: none;
+  position: absolute;
+  margin-left: 0px;
+  list-style: none;
+  height: 42px !important;
+  padding: 0px; }
+
+.red .nav ul li {
+  width: 140px;
+  float: left; }
+
+.red .nav ul a {
+  display: block;
+  height: 15px;
+  padding: 7px 8px;
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 1px solid #000000; }
+
+.red .nav ul li a:hover {
+  color: #4f0000; }
+
+.gray .ui-menu {
+  width: 100%;
+  text-align: left;
+  font-size: 20px; }
+
+.gray #butt_menu {
+  width: 50px;
+  position: absolute;
+  top: -70px;
+  right: 5px; }
+
+.gray #container_menu {
+  position: relative; }
+
+.gray #menu {
+  display: none; }
+
+.gray #menuUl {
+  background: #AAAAA9;
+  color: #000000; }
+
+.gray #divSignIn {
+  text-align: right;
+  color: #FFFFFF !important;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  width: 90px;
+  top: 0px;
+  right: 0px;
+  background: #AAAAA9;
+  text-decoration: none;
+  border-bottom: 2px solid #000000;
+  border-left: 2px solid #000000; }
+
+.gray #divSignIn a {
+  text-decoration: none; }
+
+.gray #sep {
+  width: 100%;
+  margin-top: -20px;
+  height: 2px;
+  background: #AAAAA9; }
+
+.gray #powerByFooter {
+  text-align: center !important;
+  width: 100%;
+  background: #AAAAA9;
+  color: #000000;
+  font-size: 16px !important; }
+
+.gray #powerByFooter a {
+  color: #000000 !important; }
+
+/* CSS per Menu Desktop */
+.gray .nav {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  background: #AAAAA9;
+  width: 100%;
+  height: 42px !important;
+  font-size: 20px !important;
+  border-top: 2px solid #000000; }
+
+.gray .nav li {
+  float: left;
+  height: 42px !important;
+  width: 140px;
+  position: relative;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000; }
+
+.gray .nav li a {
+  background: #AAAAA9;
+  color: #000000;
+  display: block;
+  padding: 7px 8px;
+  text-decoration: none; }
+
+.gray .nav li a:hover {
+  color: #FF0000;
+  background: #d8d8d6;
+  height: 42px !important; }
+
+.gray .selected {
+  background: #d8d8d6 !important;
+  color: #FF0000 !important;
+  height: 42px !important; }
+
+.gray .nav ul {
+  display: none;
+  position: absolute;
+  margin-left: 0px;
+  list-style: none;
+  padding: 0px;
+  height: 42px !important; }
+
+.gray .nav ul li {
+  width: 140px;
+  float: left; }
+
+.gray .nav ul a {
+  display: block;
+  height: 15px;
+  padding: 7px 8px;
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 1px solid #000000; }
+
+.gray .nav ul li a:hover {
+  color: #FF0000; }
+
+.black .ui-menu {
+  width: 100%;
+  text-align: left;
+  font-size: 20px; }
+
+.black #butt_menu {
+  width: 50px;
+  position: absolute;
+  top: -70px;
+  right: 5px; }
+
+.black #container_menu {
+  position: relative; }
+
+.black #menu {
+  display: none;
+  color: #FFFFFF !important; }
+
+.black #menuUl {
+  background: #000000;
+  color: #FFFFFF !important; }
+
+.black #menuUl li {
+  color: #FFFFFF !important; }
+
+.black #menuUl li a {
+  color: #FFFFFF !important; }
+
+.black #divSignIn {
+  text-align: right;
+  color: #FFFFFF !important;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  width: 90px;
+  top: 0px;
+  right: 0px;
+  background: #000000;
+  text-decoration: none;
+  border-bottom: 2px solid #ACACAC;
+  border-left: 2px solid #ACACAC; }
+
+.black #divSignIn a {
+  text-decoration: none;
+  color: #FFFFFF !important; }
+
+.black #sep {
+  width: 100%;
+  margin-top: -20px;
+  height: 2px;
+  background: black; }
+
+.black #powerByFooter {
+  text-align: center !important;
+  width: 100%;
+  background: #000000;
+  color: #FFFFFF;
+  font-size: 16px !important; }
+
+.black #powerByFooter a {
+  color: #FFFFFF !important; }
+
+/* CSS per Menu Desktop */
+.black .nav {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  background: #000000;
+  width: 100%;
+  height: 42px !important;
+  font-size: 20px !important;
+  border-top: 2px solid #ACACAC; }
+
+.black .nav li {
+  float: left;
+  width: 140px;
+  height: 42px !important;
+  position: relative;
+  border-left: 1px solid #ACACAC;
+  border-right: 1px solid #ACACAC; }
+
+.black .nav li a {
+  background: #000000;
+  color: #FFFFFF;
+  display: block;
+  padding: 7px 8px;
+  text-decoration: none; }
+
+.black .nav li a:hover {
+  color: #FFFFFF;
+  background: #ACACAC;
+  height: 42px !important; }
+
+.black .selected {
+  background: #ACACAC !important;
+  color: #FFFFFF !important;
+  height: 42px !important; }
+
+.black .nav ul {
+  display: none;
+  position: absolute;
+  margin-left: 0px;
+  list-style: none;
+  padding: 0px;
+  height: 42px !important; }
+
+.black .nav ul li {
+  width: 140px;
+  height: 42px !important;
+  float: left; }
+
+.black .nav ul a {
+  display: block;
+  height: 15px;
+  padding: 7px 8px;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-bottom: 1px solid #ACACAC; }
+
+.black .nav ul li a:hover {
+  color: #FFFFFF; }
+
+.white .ui-menu {
+  width: 100%;
+  text-align: left;
+  font-size: 20px; }
+
+.white #butt_menu {
+  width: 50px;
+  position: absolute;
+  top: -70px;
+  right: 5px; }
+
+.white #container_menu {
+  position: relative; }
+
+.white #menu {
+  display: none; }
+
+.white #menuUl {
+  background: #FFFFFF;
+  color: #000000; }
+
+.white #divSignIn {
+  text-align: right;
+  color: #000000 !important;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  width: 90px;
+  top: 0px;
+  right: 0px;
+  background: #FFFFFF;
+  text-decoration: none;
+  border-bottom: 2px solid #000000;
+  border-left: 2px solid #000000; }
+
+.white #divSignIn a {
+  text-decoration: none; }
+
+.white #sep {
+  width: 100%;
+  margin-top: -20px;
+  height: 2px;
+  background: #FFFFFF;
+  border-top: #EFEFEF; }
+
+.white #powerByFooter {
+  text-align: center !important;
+  width: 100%;
+  background: #FFFFFF;
+  border-top: #EFEFEF;
+  color: #000000;
+  font-size: 16px !important; }
+
+.white #powerByFooter a {
+  color: #000000 !important; }
+
+/* CSS per Menu Desktop */
+.white .nav {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  background: #FFFFFF;
+  width: 100%;
+  height: 42px !important;
+  font-size: 20px !important;
+  border-top: 2px solid #000000; }
+
+.white .nav li {
+  float: left;
+  width: 140px;
+  height: 42px !important;
+  position: relative;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000; }
+
+.white .nav li a {
+  background: #FFFFFF;
+  color: #000000;
+  display: block;
+  padding: 7px 8px;
+  text-decoration: none; }
+
+.white .nav li a:hover {
+  color: #ACACAC;
+  background: #EFEFEF;
+  height: 42px !important; }
+
+.white .selected {
+  background: #EFEFEF !important;
+  color: #ACACAC !important;
+  height: 42px !important; }
+
+.white .nav ul {
+  display: none;
+  position: absolute;
+  margin-left: 0px;
+  list-style: none;
+  padding: 0px;
+  height: 42px !important; }
+
+.white .nav ul li {
+  width: 140px;
+  float: left; }
+
+.white .nav ul a {
+  display: block;
+  height: 15px;
+  padding: 7px 8px;
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 1px solid #000000; }
+
+.white .nav ul li a:hover {
+  color: #ACACAC; }
+
+.orange .ui-menu {
+  width: 100%;
+  text-align: left;
+  font-size: 20px; }
+
+.orange #butt_menu {
+  width: 50px;
+  position: absolute;
+  top: -70px;
+  right: 5px; }
+
+.orange #container_menu {
+  position: relative; }
+
+.orange #menu {
+  display: none; }
+
+.orange #menuUl {
+  background: #ffa74f;
+  color: #000000; }
+
+.orange #divSignIn {
+  text-align: right;
+  color: #000000 !important;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  width: 90px;
+  top: 0px;
+  right: 0px;
+  background: #ffa74f;
+  text-decoration: none;
+  border-bottom: 2px solid #000000;
+  border-left: 2px solid #000000; }
+
+.orange #divSignIn a {
+  text-decoration: none; }
+
+.orange #sep {
+  width: 100%;
+  margin-top: -20px;
+  height: 2px;
+  background: #ffa74f; }
+
+.orange #powerByFooter {
+  text-align: center !important;
+  width: 100%;
+  background: #ffa74f;
+  color: #000000;
+  font-size: 16px !important; }
+
+.orange #powerByFooter a {
+  color: #000000 !important; }
+
+/* CSS per Menu Desktop */
+.orange .nav {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  background: #ffa74f;
+  width: 100%;
+  height: 42px !important;
+  font-size: 20px !important;
+  border-top: 2px solid #000000; }
+
+.orange .nav li {
+  float: left;
+  width: 140px;
+  height: 42px !important;
+  position: relative;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000; }
+
+.orange .nav li a {
+  background: #ffa74f;
+  color: #000000;
+  display: block;
+  padding: 7px 8px;
+  text-decoration: none; }
+
+.orange .nav li a:hover {
+  color: #FFFFFF;
+  background: #874300;
+  height: 42px !important; }
+
+.orange .selected {
+  background: #874300 !important;
+  color: #FFFFFF !important;
+  height: 42px !important; }
+
+.orange .nav ul {
+  display: none;
+  position: absolute;
+  margin-left: 0px;
+  list-style: none;
+  padding: 0px;
+  height: 42px !important; }
+
+.orange .nav ul li {
+  width: 140px;
+  float: left; }
+
+.orange .nav ul a {
+  display: block;
+  height: 15px;
+  padding: 7px 8px;
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 1px solid #000000; }
+
+.orange .nav ul li a:hover {
+  color: #FFFFFF; }
+
+.logo.custom-logo img {
+  width: 100% !important;
+  margin: auto !important; }
+
+#content {
+  width: 100% !important;
+  background: #FFFFFF !important;
+  font-size: 14px; }
+
+#banner {
+  margin: auto;
+  text-align: center;
+  background: #FFFFFF !important; }
+

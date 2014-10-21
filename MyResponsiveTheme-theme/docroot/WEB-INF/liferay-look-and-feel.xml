@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<!DOCTYPE look-and-feel PUBLIC "-//Liferay//DTD Look and Feel 6.1.0//EN" "http://www.liferay.com/dtd/liferay-look-and-feel_6_1_0.dtd">
+
+<look-and-feel>
+	<compatibility>
+		<version>6.1.1+</version>
+	</compatibility>
+	<theme id="TelecomNH" name="TelecomNH">
+	
+		<settings>
+			<setting configurable="true"
+		             key="link_sign_in"
+		             type="textarea"
+		             value="c/portal/login"
+		    />
+		</settings>
+		
+		<color-scheme id="01" name="Black">
+			<css-class>black</css-class>	
+			<color-scheme-images-path>
+			${images-path}/color_schemes/${css-class}
+			</color-scheme-images-path>
+		</color-scheme>
+		<color-scheme id="02" name="Blue">
+			<css-class>blue</css-class>	
+			<color-scheme-images-path>
+			${images-path}/color_schemes/${css-class}
+			</color-scheme-images-path>
+		</color-scheme>
+		<color-scheme id="03" name="Gray">
+			<css-class>gray</css-class>	
+			<color-scheme-images-path>
+			${images-path}/color_schemes/${css-class}
+			</color-scheme-images-path>
+		</color-scheme>
+		<color-scheme id="04" name="Green">
+			<css-class>green</css-class>	
+			<color-scheme-images-path>
+			${images-path}/color_schemes/${css-class}
+			</color-scheme-images-path>
+		</color-scheme>
+		<color-scheme id="05" name="Red">
+			<css-class>red</css-class>	
+			<color-scheme-images-path>
+			${images-path}/color_schemes/${css-class}
+			</color-scheme-images-path>
+		</color-scheme>
+		<color-scheme id="06" name="White">
+			<css-class>white</css-class>	
+			<color-scheme-images-path>
+			${images-path}/color_schemes/${css-class}
+			</color-scheme-images-path>
+		</color-scheme>
+		<color-scheme id="07" name="Orange">
+			<css-class>orange</css-class>	
+			<color-scheme-images-path>
+			${images-path}/color_schemes/${css-class}
+			</color-scheme-images-path>
+		</color-scheme>
+
+	</theme>
+</look-and-feel>
