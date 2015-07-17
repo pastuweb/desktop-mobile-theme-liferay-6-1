@@ -13,9 +13,9 @@
 	$theme.include($top_head_include)
 	
 	<!-- jQuery Classic -->
-	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.js"></script>
-	<script type="text/javascript" src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
 			
 </head>
 
@@ -79,7 +79,7 @@ $theme.include($body_top_include)
 		<div id="powerByFooter">
 			<br>
 			<p class="powered-by">
-				#language ("powered-by") <a style="text-decoration:none;" href="http://nh-test.tilab.com" rel="external">Telecom Italia Lab <img width="120" src="$images_folder/telecom_italia_footer.png" alt="Telecom Italia Lab" /></a>
+				#language ("powered-by") <a style="text-decoration:none;" href="http://appuntivari.net" rel="external" target="_blank">pastuweb.com</a>
 			</p>
 			<br>
 		</div>
