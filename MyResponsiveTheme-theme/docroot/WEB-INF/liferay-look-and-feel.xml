@@ -5,7 +5,7 @@
 	<compatibility>
 		<version>6.1.1+</version>
 	</compatibility>
-	<theme id="TelecomNH" name="TelecomNH">
+	<theme id="AppuntiVari" name="AppuntiVari">
 	
 		<settings>
 			<setting configurable="true"
