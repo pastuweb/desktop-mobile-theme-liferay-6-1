@@ -1,5 +1,7 @@
 # desktop-mobile-theme-liferay-6-1
-Automatically exported from code.google.com/p/desktop-mobile-theme-liferay-6-1
+-
+It was a project shared by Google Code Hosting Projects.
+-
 
 This theme is developed for Liferay 6.1. It 'a responsive theme, in the sense that it responds well to both mobile and desktop portals. 
 
